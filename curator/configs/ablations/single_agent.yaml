@@ -1,0 +1,7 @@
+# Ablation A: collapse the graph. One retrieval pass, no critic, no cycle.
+# Isolates "what does multi-agent orchestration actually buy".
+extends: base.yaml
+name: single_agent
+agents:
+  single_agent: true
+  use_critic: false

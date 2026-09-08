@@ -1,0 +1,11 @@
+# What CI runs: deterministic mock backend, no network, no GPU.
+# Guards the wiring — schemas, edges, tool contracts — not the model quality.
+extends: base.yaml
+name: ci_mock
+llm:
+  backend: mock
+retrieval:
+  mode: bm25                              # no embedding download in CI
+  corpus_path: data/fixture_corpus.jsonl  # synthetic; guards wiring, not model quality
+agents:
+  router: rules

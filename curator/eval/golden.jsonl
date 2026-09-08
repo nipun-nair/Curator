@@ -1,0 +1,18 @@
+{"id": "q001", "query": "papers on retrieval augmented generation and grounding answers", "intent": "recommend", "constraints": {}, "relevant_ids": ["FIX-0001", "FIX-0002", "FIX-0003", "FIX-0004", "FIX-0005"], "history": []}
+{"id": "q002", "query": "how do people keep citations faithful in RAG systems", "intent": "recommend", "constraints": {}, "relevant_ids": ["FIX-0001", "FIX-0002", "FIX-0003", "FIX-0004", "FIX-0005"], "history": []}
+{"id": "q003", "query": "recent work on retrieval augmented generation, nothing before 2024 and no surveys", "intent": "recommend", "constraints": {"year_min": 2024, "exclude_surveys": true}, "relevant_ids": ["FIX-0004"], "history": []}
+{"id": "q004", "query": "multi-agent orchestration and tool use for language agents", "intent": "recommend", "constraints": {}, "relevant_ids": ["FIX-0006", "FIX-0007", "FIX-0008", "FIX-0009", "FIX-0010"], "history": []}
+{"id": "q005", "query": "anything on planner critic architectures for agents", "intent": "recommend", "constraints": {}, "relevant_ids": ["FIX-0006", "FIX-0007", "FIX-0008", "FIX-0009", "FIX-0010"], "history": []}
+{"id": "q006", "query": "low rank adaptation of quantized models", "intent": "recommend", "constraints": {}, "relevant_ids": ["FIX-0011", "FIX-0012", "FIX-0013", "FIX-0014", "FIX-0015"], "history": []}
+{"id": "q007", "query": "parameter efficient fine tuning on a small memory budget", "intent": "recommend", "constraints": {}, "relevant_ids": ["FIX-0011", "FIX-0012", "FIX-0013", "FIX-0014", "FIX-0015"], "history": []}
+{"id": "q008", "query": "vector database design and approximate nearest neighbour search", "intent": "recommend", "constraints": {}, "relevant_ids": ["FIX-0016", "FIX-0017", "FIX-0018", "FIX-0019", "FIX-0020"], "history": []}
+{"id": "q009", "query": "how is sparse and dense retrieval fused", "intent": "recommend", "constraints": {}, "relevant_ids": ["FIX-0016", "FIX-0017", "FIX-0018", "FIX-0019", "FIX-0020"], "history": []}
+{"id": "q010", "query": "evaluation reliability and reproducibility of generative systems", "intent": "recommend", "constraints": {}, "relevant_ids": ["FIX-0021", "FIX-0022", "FIX-0023", "FIX-0024", "FIX-0025"], "history": []}
+{"id": "q011", "query": "measuring groundedness and attribution in generated answers", "intent": "recommend", "constraints": {}, "relevant_ids": ["FIX-0021", "FIX-0022", "FIX-0023", "FIX-0024", "FIX-0025"], "history": []}
+{"id": "q012", "query": "conversational recommendation and preference elicitation", "intent": "recommend", "constraints": {}, "relevant_ids": ["FIX-0026", "FIX-0027", "FIX-0028", "FIX-0029", "FIX-0030"], "history": []}
+{"id": "q013", "query": "user simulators for evaluating conversational recommenders", "intent": "recommend", "constraints": {}, "relevant_ids": ["FIX-0026", "FIX-0027", "FIX-0028", "FIX-0029", "FIX-0030"], "history": []}
+{"id": "q014", "query": "same topic but only 2025 papers", "intent": "refine", "constraints": {"year_min": 2025}, "relevant_ids": ["FIX-0030"], "history": [{"role": "user", "content": "conversational recommendation and preference elicitation"}]}
+{"id": "q015", "query": "what is the difference between LoRA and QLoRA", "intent": "compare", "constraints": {}, "relevant_ids": ["FIX-0011", "FIX-0012", "FIX-0013", "FIX-0014", "FIX-0015"], "history": []}
+{"id": "q016", "query": "why did you suggest that first paper", "intent": "explain", "constraints": {}, "relevant_ids": ["FIX-0011", "FIX-0012", "FIX-0013", "FIX-0014", "FIX-0015"], "history": []}
+{"id": "q017", "query": "thanks, that was useful", "intent": "chitchat", "constraints": {}, "relevant_ids": [], "history": []}
+{"id": "q018", "query": "hi there", "intent": "chitchat", "constraints": {}, "relevant_ids": [], "history": []}

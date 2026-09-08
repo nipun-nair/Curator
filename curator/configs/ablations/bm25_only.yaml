@@ -1,0 +1,5 @@
+# Ablation D: lexical baseline. Cheap, and on precise queries surprisingly hard to beat.
+extends: base.yaml
+name: bm25_only
+retrieval:
+  mode: bm25

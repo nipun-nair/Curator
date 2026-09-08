@@ -1,0 +1,8 @@
+# Ablation F: the QLoRA-tuned router (train/train_router_qlora.py).
+# Point adapter_path at the run you want to score.
+extends: base.yaml
+name: router_lora
+llm:
+  adapter_path: checkpoints/router-qlora
+agents:
+  router: lora

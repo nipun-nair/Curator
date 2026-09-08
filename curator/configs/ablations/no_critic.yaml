@@ -1,0 +1,6 @@
+# Ablation B: keep the agents, remove the verification gate.
+# Isolates the critic's contribution from the multi-agent split itself.
+extends: base.yaml
+name: no_critic
+agents:
+  use_critic: false

@@ -1,0 +1,5 @@
+# Ablation E: keyword router. The floor the LoRA router must clear.
+extends: base.yaml
+name: router_rules
+agents:
+  router: rules

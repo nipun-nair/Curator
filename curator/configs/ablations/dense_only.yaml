@@ -1,0 +1,5 @@
+# Ablation C: dense retrieval alone — no BM25, no RRF fusion.
+extends: base.yaml
+name: dense_only
+retrieval:
+  mode: dense

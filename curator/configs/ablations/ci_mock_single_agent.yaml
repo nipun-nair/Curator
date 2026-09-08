@@ -1,0 +1,13 @@
+# CI companion to ci_mock: the collapsed graph. Running both in CI proves that
+# every edge configuration still executes, and gives report.py a second row.
+extends: base.yaml
+name: ci_mock_single_agent
+llm:
+  backend: mock
+retrieval:
+  mode: bm25
+  corpus_path: data/fixture_corpus.jsonl
+agents:
+  router: rules
+  single_agent: true
+  use_critic: false

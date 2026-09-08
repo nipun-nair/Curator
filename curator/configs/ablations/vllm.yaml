@@ -1,0 +1,9 @@
+# Deployment variant: identical agents, served by vLLM instead of Ollama.
+#   vllm serve Qwen/Qwen3-4B-Instruct --port 8000
+# Run the same eval against this to show the numbers hold across backends.
+extends: base.yaml
+name: vllm
+llm:
+  backend: openai_compat
+  model: Qwen/Qwen3-4B-Instruct
+  base_url: http://localhost:8000/v1
